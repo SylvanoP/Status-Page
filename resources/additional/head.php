@@ -31,6 +31,11 @@
         .badge-right{
             float: right; margin-top: 5px;
         }
+
+        html, body {
+            max-width: 100%;
+            overflow-x: hidden;
+        }
     </style>
 
 </head>
