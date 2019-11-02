@@ -10,3 +10,4 @@ composer.phar
 .idea/Status-Page.iml
 .idea/webServers.xml
 .idea/workspace.xml
+app/controller/config.php
