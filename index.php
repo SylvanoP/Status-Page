@@ -27,6 +27,9 @@ if(isset($_GET['page'])) {
         //mainpage
         case "index": include($sites."index.php");  break;
 
+        //crone
+        case "check_monitors": include("app/crone/check_monitors.php");  break;
+
     }
     include 'resources/additional/footer.php';
 } else {

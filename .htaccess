@@ -6,6 +6,9 @@
 	#mainpage
 	RewriteRule ^/?$ index.php?page=index [L]
 
+    #crone
+    RewriteRule ^crone/checkmonitors/([A-Za-z0-9-]+)?$ index.php?page=check_monitors&key=$1 [NC,L]
+
 </IfModule>
 <Files 403.shtml>
     order allow,deny
