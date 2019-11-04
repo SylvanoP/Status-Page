@@ -7,7 +7,7 @@ class Check extends Controller
 
     public function ping($addr)
     {
-        exec('ping -c 1 -W 3 '.$addr,$output,$state);
+        exec('ping -c 1'.$addr,$output,$state);
         return $state;
     }
 
